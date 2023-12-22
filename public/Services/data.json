@@ -1,0 +1,60 @@
+{
+    "groups": [
+       {
+          "id": 1,
+          "treatment": 1,
+          "TestArticles": [
+             {
+                "isbaseAticle": false,
+                "value": "C35H43n7011 @ 0.201 mM"
+             },
+             {
+                "isbaseAticle": true,
+                "value": "cAC10+004885(8)+005718(8)@1.445 mg/kg"
+             }
+          ],
+          "Notes": ""
+       },
+       {
+          "id": 3,
+          "treatment": 1,
+          "TestArticles": [
+             {
+                "isbaseAticle": false,
+                "value": "C27H25CIN203@0.505mg/kg"
+             },
+             {
+                "isbaseAticle": false,
+                "value": "CD59@0.75Gy"
+             }
+          ],
+          "Notes": "asdasdasff"
+       }
+    ],
+    "CollectionSchedule": [
+       {
+          "isdefult": true,
+          "Dose": 1,
+          "Timepoint": "1hr",
+          "animals": "all"
+       },
+       {
+          "isdefault": true,
+          "Dose": 1,
+          "Timepoint": "72hr(3 days)",
+          "animals": "1,2,5-7"
+       },
+       {
+          "isdefault": false,
+          "Dose": 1,
+          "Timepoint": "1hr",
+          "animals": "1,2,5-7"
+       },
+       {
+          "isdefault": false,
+          "Dose": 1,
+          "Timepoint": "72hr(3 days)",
+          "animals": "1,2,5-7"
+       }
+    ]
+ }
